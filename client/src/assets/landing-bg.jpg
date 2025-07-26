@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="pattern1" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M0,30 L60,30 M30,0 L30,60" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grad1)"/>
+  <rect width="1920" height="1080" fill="url(#pattern1)"/>
+  
+  <!-- Abstract shapes -->
+  <circle cx="400" cy="300" r="250" fill="rgba(52, 152, 219, 0.3)"/>
+  <circle cx="1600" cy="800" r="300" fill="rgba(41, 128, 185, 0.2)"/>
+  
+  <!-- Career-related icons -->
+  <g transform="translate(960, 540)" fill="rgba(255,255,255,0.1)">
+    <!-- Briefcase icon -->
+    <path d="M-400,-200 h200 v-50 h-50 v-100 h-100 v100 h-50 v50 z M-350,-150 h100 v-50 h-100 v50 z"/>
+    
+    <!-- Graduation cap -->
+    <path d="M200,-250 l150,75 l-150,75 l-150,-75 z M200,-100 v-75 M50,-175 v50 l150,75 l150,-75 v-50"/>
+    
+    <!-- Computer -->
+    <path d="M-300,100 h200 v150 h-200 z M-350,250 h300 v20 h-300 z M-250,250 v20"/>
+    
+    <!-- Book -->
+    <path d="M100,100 h200 v150 h-200 z M100,100 q100,30 0,150 M300,100 q-100,30 0,150"/>
+  </g>
+</svg>
